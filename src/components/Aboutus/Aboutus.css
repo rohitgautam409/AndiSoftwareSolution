@@ -1,0 +1,59 @@
+.heading{    
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    font-size:36px;
+}
+
+.heading::after{
+    content: " ";
+    height: 2px;
+    width: 4%;
+    background: red;
+    position: absolute;
+    left: 39%;
+    bottom: 42%;
+}
+.heading::before{
+    content: " ";
+    height: 2px;
+    width: 4%;
+    background: red;
+    position: absolute;
+    left: 57%;
+    bottom: 42%;
+}
+.content{
+    max-width: 1110px;
+    margin: 0% auto;
+
+}
+.sub-content{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.head{
+    font-size: 24px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:bold;
+   /* text-decoration: underline red; */
+}
+.head::after{
+    content: " ";
+    height: 2px;
+    width: 5%;
+    background: red;
+    position: absolute;
+    left: 0%;
+    bottom: -25%;
+    
+}
+h4{
+    margin-top: 20px;
+    font-size:18px;
+    font-weight:600;
+    
+}
