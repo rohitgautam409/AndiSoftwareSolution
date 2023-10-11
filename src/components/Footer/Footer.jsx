@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import linkedin from "./Media/Linkedin.png";
 import Facebook from "./Media/Faceook.png";
 import Instagram from "./Media/Instagram.png";
